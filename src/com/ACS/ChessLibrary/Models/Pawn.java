@@ -9,27 +9,34 @@ public class Pawn implements IPiece {
 // These are the pawn class's parameters
     //They get created during class instantiation
     private PlayerColor color;
-
     private boolean hasMoved;
-
+    private Space mySpace;
 
     //this is the Pawn class's constructor method
     //it gets called when the object is created
 
-    public Pawn(PlayerColor importedColor){
+    public Pawn(PlayerColor importedColor, Space mySpace){
 
         this.setColor(importedColor);
         this.setHasMoved(false);
+        this.setMySpace(mySpace);
 
     };
 
+    // this method will get called when its time to attempt to move this piece.
+    // Since this piece has access ot the Space it resides in, it can return a list
+    // of possible locations on the board it can move.
+    public int[][] getPossibleMoves(Board theGameBoard) {
+        return new int[0][0];
+    }
 
+    ;
 
 // these are the setter and getter methods for the above parameters
 //since the above parameters are marked as private this is the only way any code outside of this class can see their value
 
-
-    public void setColor (PlayerColor importedColor){
+//region Getters and Setters
+    private void setColor (PlayerColor importedColor){
      this.color = importedColor;
     };
     public PlayerColor getColor(){
@@ -44,6 +51,19 @@ public class Pawn implements IPiece {
     public boolean getHasMoved (){
 
     return this.hasMoved;
-    };
+    }
+
+    public Space getMySpace() {
+        return mySpace;
+    }
+
+    public void setMySpace(Space mySpace) {
+        this.mySpace = mySpace;
+    }
+
+//endregion
+
+
+
 
 }
