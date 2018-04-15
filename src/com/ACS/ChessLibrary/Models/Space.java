@@ -14,9 +14,8 @@ public class Space {
     //endregion
 
     //region Constructors
-    public Space(IPiece myNewPiece, int row, int col)
+    public Space(int row, int col)
     {
-        setContents((myNewPiece));
         setHighlighted(false);
 
     }
