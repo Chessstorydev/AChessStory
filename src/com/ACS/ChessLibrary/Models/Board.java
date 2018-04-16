@@ -137,6 +137,7 @@ public class Board {
 
         //This method will need to navigate the SPACE[][] to find where the white king is and set the
         // 'this.whiteKing' = to that Space object.
+        //Definitely read the article i sent you before this.
     }
 
     public Space getBlackKing() {
@@ -148,6 +149,7 @@ public class Board {
 
         //This method will need to navigate the SPACE[][] to find where the black king is and set the
         // 'this.blackKing' = to that Space object.
+        //Definitely read the article i sent you before this.
     }
 
     //endregion
