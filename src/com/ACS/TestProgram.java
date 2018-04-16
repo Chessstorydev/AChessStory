@@ -14,11 +14,18 @@ public class TestProgram {
         System.out.println(myvariable);
         System.out.println(testMethod());
 
-        Pawn myPawn = new Pawn(PlayerColor.WHITE);
+        Board gameBoard = new Board();
+
+        for(int i = 0; i > 8; i ++)
+        {
+            System.out.println("my value of I is: " + i);
+
+        }
+       /* Pawn myPawn = new Pawn(PlayerColor.WHITE);
         System.out.println(myPawn.getColor());
 
         myPawn = new Pawn(PlayerColor.BLACK);
-        System.out.println(myPawn.getColor());
+        System.out.println(myPawn.getColor());*/
     }
 
 
