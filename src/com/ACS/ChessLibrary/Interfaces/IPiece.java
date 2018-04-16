@@ -11,5 +11,5 @@ public interface IPiece {
     public void setHasMoved (boolean hasMoved);
     public boolean getHasMoved ();
 
-    public int[][] getPossibleMoves(Board theGameBoard);
+    public void highlightPossibleMoves();
 }

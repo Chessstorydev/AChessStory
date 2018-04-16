@@ -23,14 +23,11 @@ public class Bishop implements IPiece {
 
     };
 
-    // this method will get called when its time to attempt to move this piece.
-    // Since this piece has access ot the Space it resides in, it can return a list
-    // of possible locations on the board it can move.
-    public int[][] getPossibleMoves(Board theGameBoard) {
-        return new int[0][0];
-    }
+    public void highlightPossibleMoves() {
+        //TODO NEIL 5
 
-    ;
+
+    }
 
 // these are the setter and getter methods for the above parameters
 //since the above parameters are marked as private this is the only way any code outside of this class can see their value
