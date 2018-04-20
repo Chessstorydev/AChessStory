@@ -26,7 +26,55 @@ public class King implements IPiece {
     public void highlightPossibleMoves() {
         //TODO NEIL 3
 
-    }
+        Board myGameBoard = mySpace.getMyGame();
+
+        int row = mySpace.getRow();
+        int col = mySpace.getCol();
+
+        Space[][] boardSpaces = myGameBoard.getTheSpaces();
+
+        if( boardSpaces[row+1][col].getContents() == null)
+        {
+
+            boardSpaces[row+1][col].setHighlighted(true);
+            }
+
+        if( boardSpaces[row+1][col+1].getContents() == null)
+        {
+
+            boardSpaces[row+1][col+1].setHighlighted(true);
+        }
+
+        if( boardSpaces[row+1][col-1].getContents() == null)
+        {
+
+            boardSpaces[row+1][col-1].setHighlighted(true);
+        }
+        if( boardSpaces[row][col+1].getContents() == null)
+        {
+
+            boardSpaces[row][col+1].setHighlighted(true);
+        }
+        if( boardSpaces[row][col-1].getContents() == null)
+        {
+
+            boardSpaces[row][col-1].setHighlighted(true);
+        }
+        if( boardSpaces[row-1][col].getContents() == null)
+        {
+
+            boardSpaces[row-1][col].setHighlighted(true);
+        }
+        if( boardSpaces[row-1][col+1].getContents() == null)
+        {
+
+            boardSpaces[row-1][col+1].setHighlighted(true);
+        }
+        if( boardSpaces[row-1][col-1].getContents() == null)
+        {
+
+            boardSpaces[row-1][col-1].setHighlighted(true);
+        }
 
 // these are the setter and getter methods for the above parameters
 //since the above parameters are marked as private this is the only way any code outside of this class can see their value
