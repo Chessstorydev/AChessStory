@@ -21,7 +21,7 @@ public class King implements IPiece {
         this.setHasMoved(false);
         this.setMySpace(mySpace);
 
-    };
+    }
 
     public void highlightPossibleMoves() {
         //TODO NEIL 3
