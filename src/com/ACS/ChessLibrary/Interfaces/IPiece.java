@@ -1,6 +1,7 @@
 package com.ACS.ChessLibrary.Interfaces;
 import com.ACS.ChessLibrary.Enumeration.*;
 import com.ACS.ChessLibrary.Models.Board;
+import com.ACS.ChessLibrary.Models.Space;
 
 public interface IPiece {
 
@@ -12,4 +13,5 @@ public interface IPiece {
     public boolean getHasMoved ();
 
     public void highlightPossibleMoves();
+    public Space getMySpace();
 }

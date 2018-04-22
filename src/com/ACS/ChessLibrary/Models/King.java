@@ -33,49 +33,41 @@ public class King implements IPiece {
 
         Space[][] boardSpaces = myGameBoard.getTheSpaces();
 
-        if( boardSpaces[row+1][col].getContents() == null)
-        {
+        if (boardSpaces[row + 1][col].getContents() == null) {
 
-            boardSpaces[row+1][col].setHighlighted(true);
-            }
-
-        if( boardSpaces[row+1][col+1].getContents() == null)
-        {
-
-            boardSpaces[row+1][col+1].setHighlighted(true);
+            boardSpaces[row + 1][col].setHighlighted(true);
         }
 
-        if( boardSpaces[row+1][col-1].getContents() == null)
-        {
+        if (boardSpaces[row + 1][col + 1].getContents() == null) {
 
-            boardSpaces[row+1][col-1].setHighlighted(true);
-        }
-        if( boardSpaces[row][col+1].getContents() == null)
-        {
-
-            boardSpaces[row][col+1].setHighlighted(true);
-        }
-        if( boardSpaces[row][col-1].getContents() == null)
-        {
-
-            boardSpaces[row][col-1].setHighlighted(true);
-        }
-        if( boardSpaces[row-1][col].getContents() == null)
-        {
-
-            boardSpaces[row-1][col].setHighlighted(true);
-        }
-        if( boardSpaces[row-1][col+1].getContents() == null)
-        {
-
-            boardSpaces[row-1][col+1].setHighlighted(true);
-        }
-        if( boardSpaces[row-1][col-1].getContents() == null)
-        {
-
-            boardSpaces[row-1][col-1].setHighlighted(true);
+            boardSpaces[row + 1][col + 1].setHighlighted(true);
         }
 
+        if (boardSpaces[row + 1][col - 1].getContents() == null) {
+
+            boardSpaces[row + 1][col - 1].setHighlighted(true);
+        }
+        if (boardSpaces[row][col + 1].getContents() == null) {
+
+            boardSpaces[row][col + 1].setHighlighted(true);
+        }
+        if (boardSpaces[row][col - 1].getContents() == null) {
+
+            boardSpaces[row][col - 1].setHighlighted(true);
+        }
+        if (boardSpaces[row - 1][col].getContents() == null) {
+
+            boardSpaces[row - 1][col].setHighlighted(true);
+        }
+        if (boardSpaces[row - 1][col + 1].getContents() == null) {
+
+            boardSpaces[row - 1][col + 1].setHighlighted(true);
+        }
+        if (boardSpaces[row - 1][col - 1].getContents() == null) {
+
+            boardSpaces[row - 1][col - 1].setHighlighted(true);
+        }
+    }
 // these are the setter and getter methods for the above parameters
 //since the above parameters are marked as private this is the only way any code outside of this class can see their value
 
