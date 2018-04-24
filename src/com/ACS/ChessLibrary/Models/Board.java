@@ -20,8 +20,8 @@ public class Board {
 
     //These will hold references to where the White King and the Black King are currently at in the gameboard.
     //This will make it easy to determine Check later on without unnecessary recursion.
-    private Space whiteKing;
-    private Space blackKing;
+    private IPiece whiteKing;
+    private IPiece blackKing;
 
     //this is a simple variable to keep track of whose turn it is.
     private PlayerColor whoseTurn;
@@ -101,12 +101,26 @@ public class Board {
 
     public void clearHighlighting()
     {
-        //TODO NEIL 1
+
         //This method will need to use 2 for loops to iterate through all of the Spaces on the gameboard
         //and turn their Highlighting value to false;
 
         //we will do this from time to time, and this is a good helper method.
 
+        //psuedocode:
+        //get access to variable that refers to gameboard (already inside gameboard.java)
+        // need to get the spaces
+        // Need to iterate over every space
+        // Need to set those spaces highlighted to false
+
+
+        for (int row = 0; row < 8; row++) {
+            for (int col = 0; col < 8; col++) {
+                this.theSpaces[row][col].setHighlighted(false);
+            }
+
+        }
+//
     }
 
 
@@ -123,29 +137,68 @@ public class Board {
         return theSpaces;
     }
 
-    public void setTheSpaces(Space[][] theSpaces) {
+    public void setTheSpaces(Space[][] theSpaces)
+    {
         this.theSpaces = theSpaces;
     }
 
-    public Space getWhiteKing() {
+    public IPiece getWhiteKing()
+    {
         return whiteKing;
     }
 
-    public void setWhiteKing(Space whiteKing) {
-
-        //TODO NEIL 2
+    public void findWhiteKing() {
+        
 
         //This method will need to navigate the SPACE[][] to find where the white king is and set the
         // 'this.whiteKing' = to that Space object.
         //Definitely read the article i sent you before this.
+
+        //Pseudocode:
+        // Get the spaces
+        // Iterate through the spaces
+        // check the contents of each space for the white king
+        // if we find white king, set local variable to this space
+
+        for (int row = 0; row < 8; row++) {
+            for (int col = 0; col < 8; col++) {
+               IPiece temp = this.theSpaces[row][col].getContents();
+               if (temp != null){
+                   if (temp.getColor() == PlayerColor.WHITE)
+                   {
+                       if (temp.getClass().getName() == "com.ACS.ChessLibrary.Models.King")
+                       {
+                          whiteKing = temp;
+                          col = 8;
+                          row = 8;
+                       }
+                   }
+               }
+            }
+        }
     }
 
-    public Space getBlackKing() {
+    public IPiece getBlackKing() {
         return blackKing;
     }
 
-    public void setBlackKing(Space blackKing) {
-        //TODO NEIL 2
+    public void findBlackKing() {
+        for (int row = 0; row < 8; row++) {
+            for (int col = 0; col < 8; col++) {
+                IPiece temp = this.theSpaces[row][col].getContents();
+                if (temp != null){
+                    if (temp.getColor() == PlayerColor.BLACK)
+                    {
+                        if (temp.getClass().getName() == "com.ACS.ChessLibrary.Models.King")
+                        {
+                            blackKing = temp;
+                            col = 8;
+                            row = 8;
+                        }
+                    }
+                }
+            }
+        }
 
         //This method will need to navigate the SPACE[][] to find where the black king is and set the
         // 'this.blackKing' = to that Space object.

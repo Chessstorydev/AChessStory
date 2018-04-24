@@ -24,9 +24,26 @@ public class Rook implements IPiece {
     };
 
     public void highlightPossibleMoves() {
-        //TODO NEIL 5
 
+            //TODO NEIL 3
 
+            Board myGameBoard = mySpace.getMyGame();
+
+            int row = mySpace.getRow();
+            int col = mySpace.getCol();
+
+         /*   Space[][] boardSpaces = myGameBoard.getTheSpaces();
+
+            if (row != 7) {
+                if (boardSpaces[row + 1][col].getContents() == null) {
+
+                    boardSpaces[row + 1][col].setHighlighted(true);
+
+                    for (int row = 0; row < 8; row++) {
+                        for (int col = 0; col < 8; col++) {
+                }
+            }
+*/
     }
 
 // these are the setter and getter methods for the above parameters

@@ -24,7 +24,7 @@ public class Bishop implements IPiece {
     };
 
     public void highlightPossibleMoves() {
-        //TODO NEIL 5
+
 
 
     }

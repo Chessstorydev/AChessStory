@@ -21,23 +21,22 @@ public class TestProgram {
                 System.out.println("Welcome to shitty UI for chess program!");
                 System.out.println("1: Make a move");
                 System.out.println("2: Display gameBoard");
+                System.out.println("3: Clear highlighting");
                 Scanner scan = new Scanner(System.in);
                 choice = scan.nextInt();
 
-                if(choice == 1)
-                {
+                if (choice == 1) {
                     makeAMove();
-                }
-                else if(choice == 2)
-                {
+                } else if (choice == 2) {
                     displayGame();
+                } else if (choice == 3) {
+                    theGame.clearHighlighting();
                 }
-
-
             }
             catch(Exception e)
             {
-                System.out.println("You dont fucked up");
+                System.out.println("You done fucked up");
+                System.out.println (e.getCause());
             }
         }
 //        System.out.println("hello");
@@ -62,7 +61,16 @@ public class TestProgram {
 
     public static void makeAMove()
     {
+System.out.println("Please enter row");
+        Scanner scan = new Scanner(System.in);
+        int rowChoice = scan.nextInt();
 
+        System.out.println("Please enter column");
+        int colChoice = scan.nextInt();
+
+        Space[][] theSpaces = theGame.getTheSpaces();
+        IPiece myContents = theSpaces [rowChoice][colChoice].getContents();
+        myContents.highlightPossibleMoves();
     }
 
     public static void displayGame()
