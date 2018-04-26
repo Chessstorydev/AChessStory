@@ -1,13 +1,17 @@
 package com.ACS.ChessLibrary.Interfaces;
 import com.ACS.ChessLibrary.Enumeration.*;
+import com.ACS.ChessLibrary.Models.Board;
+import com.ACS.ChessLibrary.Models.Space;
 
 public interface IPiece {
 
-    public void setColor (PlayerColor color);
+    private void setColor (PlayerColor color){};
+
     public PlayerColor getColor();
 
     public void setHasMoved (boolean hasMoved);
     public boolean getHasMoved ();
 
-
+    public void highlightPossibleMoves();
+    public Space getMySpace();
 }
