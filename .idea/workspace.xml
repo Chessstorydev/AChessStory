@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6b10995-0f72-4f33-8261-65a2ef0f4f24" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Bishop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Knight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Queen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Space.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ACS/TestProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ACS/TestProgram.java" afterDir="false" />
-    </list>
+    <list default="true" id="49d8778d-8cc8-423a-b890-f69cbd98fc4f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,73 +10,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="AChessStory" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="TestProgram.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>pawn</find>
-      <find>setColor</find>
-      <find>possible</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ACS/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/Color.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Queen.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Knight.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Bishop.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" />
         <option value="$PROJECT_DIR$/src/com/ACS/TestProgram.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="103" />
-    <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="x" value="321" />
+    <option name="width" value="1400" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,16 +68,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GitHubDesktopSetup.exe" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,31 +86,61 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="TestProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ACS.TestProgram" />
       <module name="AChessStory" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ACS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -168,53 +149,43 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f6b10995-0f72-4f33-8261-65a2ef0f4f24" name="Default" comment="" />
-      <created>1523663690419</created>
+      <changelist id="49d8778d-8cc8-423a-b890-f69cbd98fc4f" name="Default" comment="" />
+      <created>1525317209481</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523663690419</updated>
+      <updated>1525317209481</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="103" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32904884" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50065106" side_tool="true" weight="0.32965517" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.32904884" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34130147" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" x="17" y="88" width="540" height="801" id="Project" order="0" sideWeight="0.49808428" visible="true" weight="0.15364583" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3134963" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27222982" />
-      <window_info id="Favorites" order="5" sideWeight="0.5019157" side_tool="true" weight="0.15364583" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39426142" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -224,143 +195,46 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url />
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/com/ACS/TestProgram.java</url>
+          <line>11</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ACS/TestProgram.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="189">
+          <caret line="694" column="16" selection-start-line="694" selection-start-column="16" selection-end-line="694" selection-end-column="16" />
+          <folding>
+            <element signature="e#24380#24381#0" expanded="true" />
+            <element signature="e#24405#24406#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Queen.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Bishop.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Space.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Knight.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
+      <state key="ProjectJDKs.UI">
         <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>AChessStory</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
