@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6b10995-0f72-4f33-8261-65a2ef0f4f24" name="Default" comment="" />
+    <list default="true" id="f6b10995-0f72-4f33-8261-65a2ef0f4f24" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Bishop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Knight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Queen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Space.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ACS/TestProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ACS/TestProgram.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +26,12 @@
     <favorites_list name="AChessStory" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="King.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestProgram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -58,16 +70,16 @@
         <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Knight.java" />
         <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Bishop.java" />
         <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java" />
-        <option value="$PROJECT_DIR$/src/com/ACS/TestProgram.java" />
         <option value="$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" />
+        <option value="$PROJECT_DIR$/src/com/ACS/TestProgram.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="250" />
-    <option name="y" value="-20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1912" />
+    <option name="y" value="103" />
+    <option name="width" value="1936" />
+    <option name="height" value="1186" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -75,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -96,41 +107,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ACS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AChessStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AChessStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ACS" type="462c0819:PsiDirectoryNode" />
-              <item name="ChessLibrary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AChessStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AChessStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ACS" type="462c0819:PsiDirectoryNode" />
-              <item name="ChessLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="Enumeration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AChessStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AChessStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ACS" type="462c0819:PsiDirectoryNode" />
-              <item name="ChessLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AChessStory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AChessStory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ACS" type="462c0819:PsiDirectoryNode" />
-              <item name="ChessLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,12 +186,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="103" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32904884" />
-      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -234,6 +214,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.32965517" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -253,236 +234,65 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="102" column="17" lean-forward="true" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ACS/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ACS/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Queen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Bishop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Space.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="66" column="108" lean-forward="true" selection-start-line="66" selection-start-column="108" selection-end-line="66" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Rook.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Queen.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Bishop.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Board.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Space.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Knight.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/Pawn.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Enumeration/PlayerColor.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Interfaces/IPiece.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ACS/TestProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ACS/ChessLibrary/Models/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
