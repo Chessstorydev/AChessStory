@@ -36,7 +36,7 @@ public class King implements IPiece {
 
 
     public void highlightPossibleMoves() {
-        //TODO NEIL 3
+
 
         Board myGameBoard = mySpace.getMyGame();
 
@@ -50,9 +50,17 @@ public class King implements IPiece {
 
                 boardSpaces[row + 1][col].setHighlighted(true);
             }
+            else if (boardSpaces[row + 1][col].getContents().getColor() != this.getColor()) {
+
+                boardSpaces[row + 1][col].setHighlighted(true);
+            }
         }
         if (row != 7 && col != 7) {
             if (boardSpaces[row + 1][col + 1].getContents() == null) {
+
+                boardSpaces[row + 1][col + 1].setHighlighted(true);
+            }
+            else if (boardSpaces[row + 1][col + 1].getContents().getColor() != this.getColor()) {
 
                 boardSpaces[row + 1][col + 1].setHighlighted(true);
             }
@@ -63,10 +71,18 @@ public class King implements IPiece {
 
                 boardSpaces[row + 1][col - 1].setHighlighted(true);
             }
+            else if (boardSpaces[row + 1][col - 1].getContents().getColor() != this.getColor()) {
+
+                boardSpaces[row + 1][col - 1].setHighlighted(true);
+            }
         }
 
         if (col != 7) {
             if (boardSpaces[row][col + 1].getContents() == null) {
+
+                boardSpaces[row][col + 1].setHighlighted(true);
+            }
+            else if (boardSpaces[row][col + 1].getContents().getColor() != this.getColor()) {
 
                 boardSpaces[row][col + 1].setHighlighted(true);
             }
@@ -77,10 +93,18 @@ public class King implements IPiece {
 
                 boardSpaces[row][col - 1].setHighlighted(true);
             }
+            else if (boardSpaces[row][col - 1].getContents().getColor() != this.getColor()) {
+
+                boardSpaces[row][col - 1].setHighlighted(true);
+            }
         }
 
         if (row != 0) {
             if (boardSpaces[row - 1][col].getContents() == null) {
+
+                boardSpaces[row - 1][col].setHighlighted(true);
+            }
+            else if (boardSpaces[row - 1][col].getContents().getColor() != this.getColor()) {
 
                 boardSpaces[row - 1][col].setHighlighted(true);
             }
@@ -91,10 +115,18 @@ public class King implements IPiece {
 
                 boardSpaces[row - 1][col + 1].setHighlighted(true);
             }
+            else if (boardSpaces[row - 1][col + 1].getContents().getColor() != this.getColor()) {
+
+                boardSpaces[row - 1][col + 1].setHighlighted(true);
+            }
         }
 
         if (row != 0 && col != 0) {
             if (boardSpaces[row - 1][col - 1].getContents() == null) {
+
+                boardSpaces[row - 1][col - 1].setHighlighted(true);
+            }
+            else if (boardSpaces[row - 1][col - 1].getContents().getColor() != this.getColor()) {
 
                 boardSpaces[row - 1][col - 1].setHighlighted(true);
             }
